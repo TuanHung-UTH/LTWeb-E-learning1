@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTH E-Shop</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="1.css">
+</head>
+<body>
+    <header>
+        <!--Phần thiết kế Logo-->
+        <a class="logo" href="#">
+            <img src="logo.png" alt="UTH Logo" height="50">
+        </a>
+        <!--Phần thiết kế thanh tìm kiếm-->
+        <div class="search-bar">
+            <input type="text" placeholder="Tìm kiếm sản phẩm...">
+            <button type="submit">Tìm kiếm</button>
+        </div>
+        <!--Phần thiết kế giỏ hàng và tài khoản-->
+        <div class="header-actions">
+          <a href="#">🛒 Giỏ hàng (0)</a>
+          <a href="#">👤 Tài khoản</a>
+        </div>
+    </header>
+    <nav>
+        <a href="#">Trang chủ</a>
+        <!--Menu điện thoại-->
+        <div class="nav-item">
+            <a href="#">Điện thoại</a>
+            <div class="dropdown">
+                <a href="#">iPhone</a>
+                <a href="#">Samsung</a>
+                <a href="#">Xiaomi</a>
+            </div>
+        </div>
+        <!--Menu laptop-->
+        <div class="nav-item">
+            <a href="#">Laptop</a>
+            <div class="dropdown">
+                <a href="#">Dell</a>
+                <a href="#">Asus</a>
+                <a href="#">MacBook</a>
+            </div>
+        </div>
+
+        <a href="#">Phụ kiện</a>
+        <a href="#">Khuyến mãi</a>
+        <a href="#">Liên hệ</a>
+
+    
+    </nav>
+
+    <div class="page-body">
+
+    <!--Nội dung chính-->
+    <div class="main-content">
+
+      <!--Banner-->
+      <div class="hero">
+        <img src="https://images.unsplash.com/photo-1498049794561-7780e7231661?w=900&q=80" alt="Banner">
+        <div class="hero-text">
+          <h2>Khuyến mãi đặc biệt –<br>Giảm giá 50%!</h2>
+        </div>
+      </div>
+
+      <!--Tiêu đề-->
+      <h2 class="section-title">Sản phẩm nổi bật</h2>
+
+      <!--Lưới sản phẩm-->
+      <div class="products-grid">
+
+        <!--Sản phẩm 1-->
+        <div class="product-card">
+          <img src="https://i.pinimg.com/736x/7d/e2/fb/7de2fbd0fca59d97da3b76f47499fab9.jpg" alt="iPhone 15">
+          <div class="product-info">
+            <h3>iPhone 15</h3>
+            <div class="product-price">25.000.000 VNĐ</div>
+            <button class="btn-buy">Mua ngay</button>
+          </div>
+        </div>
+
+        <!--Sản phẩm 2-->
+        <div class="product-card">
+          <img src="https://i.pinimg.com/736x/4b/4e/d1/4b4ed1dd817eb1023063e4852f9449f2.jpg" alt="Laptop Dell">
+          <div class="product-info">
+            <h3>Laptop Dell</h3>
+            <div class="product-price">20.000.000 VNĐ</div>
+            <button class="btn-buy">Mua ngay</button>
+          </div>
+        </div>
+
+        <!--Sản phẩm 3-->
+        <div class="product-card">
+          <img src="https://i.pinimg.com/736x/1d/cd/41/1dcd410bac847e45c7baf7ff20afefc2.jpg" alt="Tai nghe Sony">
+          <div class="product-info">
+            <h3>Tai nghe Sony</h3>
+            <div class="product-price">2.000.000 VNĐ</div>
+            <button class="btn-buy">Mua ngay</button>
+          </div>
+        </div>
+
+        <!--Sản phẩm 4-->
+        <div class="product-card">
+          <img src="https://i.pinimg.com/736x/02/dc/4e/02dc4e694af5ffca169b9da6080bc9d5.jpg" alt="Ốp lưng iPhone">
+          <div class="product-info">
+            <h3>Ốp lưng iPhone</h3>
+            <div class="product-price">500.000 VNĐ</div>
+            <button class="btn-buy">Mua ngay</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!--Slide bar-->
+    <aside class="sidebar">
+      <div class="bestseller-card">
+        <h3>Sản phẩm bán chạy</h3>
+
+        <div class="bestseller-item">
+          <img src="https://i.pinimg.com/736x/cb/2a/d0/cb2ad0bbc24149758f88797d22b54ab7.jpg" alt="iPhone 15 Pro">
+          <div class="bestseller-item-info">
+            <div class="name">iPhone 15 Pro</div>
+            <div class="price">29.000.000 VNĐ</div>
+          </div>
+        </div>
+
+        <div class="bestseller-item">
+          <img src="https://i.pinimg.com/736x/2b/73/41/2b7341f12721772cc4e328614e2bebcc.jpg" alt="MacBook Air M2">
+          <div class="bestseller-item-info">
+            <div class="name">MacBook Air M2</div>
+            <div class="price">35.000.000 VNĐ</div>
+          </div>
+        </div>
+
+        <div class="bestseller-item">
+          <img src="https://i.pinimg.com/736x/f3/17/94/f31794f2a6bc4a7305528502bfcb9a9c.jpg" alt="AirPods Pro">
+          <div class="bestseller-item-info">
+            <div class="name">AirPods Pro</div>
+            <div class="price">5.000.000 VNĐ</div>
+          </div>
+        </div>
+
+        <div class="bestseller-item">
+          <img src="https://i.pinimg.com/1200x/63/1a/b7/631ab75b5e5bb444676115a2cc9d84a0.jpg" alt="iPad Air">
+          <div class="bestseller-item-info">
+            <div class="name">iPad Air</div>
+            <div class="price">18.000.000 VNĐ</div>
+          </div>
+        </div>
+
+        <div class="bestseller-item">
+          <img src="https://i.pinimg.com/1200x/ef/4c/57/ef4c573cac1b59e99708c29a1e12524e.jpg" alt="Apple Watch Series 9">
+          <div class="bestseller-item-info">
+            <div class="name">Apple Watch Series 9</div>
+            <div class="price">12.000.000 VNĐ</div>
+          </div>
+        </div>
+
+      </div>
+    </aside>
+
+  </div>
+
+  <footer>
+
+    <div class="footer-grid">
+
+      <!--Liên hệ-->
+      <div class="footer-col">
+        <h4>Liên hệ</h4>
+        <p>Email: support@eshop.com</p>
+        <p>Điện thoại: 0123-456-789</p>
+      </div>
+
+      <!--Chính sách-->
+      <div class="footer-col">
+        <h4>Chính sách</h4>
+        <a href="#">Chính sách đổi trả</a>
+        <a href="#">Chính sách bảo hành</a>
+        <a href="#">Chính sách vận chuyển</a>
+      </div>
+
+      <!--Theo dõi chúng tôi-->
+      <div class="footer-col">
+        <h4>Theo dõi chúng tôi</h4>
+        <p>Facebook | Instagram | Twitter</p>
+      </div>
+
+    </div>
+
+    <!--Bản quyền-->
+    <div class="footer-bottom">
+      © 2026 E-Shop. Tất cả quyền được bảo lưu.
+    </div>
+
+  </footer>
+
+</body>
+</html>
